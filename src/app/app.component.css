@@ -1,0 +1,39 @@
+.container{
+    min-width: 1530px;
+    width: 100%;
+    height: 100%;
+    background-color: #D9C7A7;
+}
+
+.app-body {
+    min-height: 78vh;
+}
+
+.list-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+}
+
+p {
+    font-family: cursive;
+    font-style: oblique;
+    color: #26160D;
+}
+
+#show:hover {
+    transform: translate(2px,2px);
+}
+
+#show:active {
+    transform: translate(2px,2px);
+}
+
+#add:hover {
+    transform: translate(2px,2px);
+}
+
+#add:active {
+    transform: translate(2px,2px);
+}

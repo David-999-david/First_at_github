@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-txt {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #593B20;
+    color: #D9C7A7;
+    font-style: oblique;
+    font-size: 1.5rem;
+}

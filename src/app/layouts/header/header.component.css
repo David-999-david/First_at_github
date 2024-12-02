@@ -1,0 +1,29 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    transition: transform 0.3s ease, font-size 10s ease;
+}
+
+.logo :hover {
+    transform: scale(1.1);
+}
+
+.navbar-brand {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: #D9C7A7;
+    background-color: #593B20;
+    font-size: 2rem;
+    font-style: oblique;
+}
+
+.date {
+    padding-top: 20px;
+    font-style: oblique 23deg;
+    color: #593B20;
+    text-decoration: underline;
+}
